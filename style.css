@@ -208,6 +208,7 @@ article .btn {
     border-radius: 8px;
     border: 1px solid grey;
     margin-right: 16px;
+    box-shadow: var(--box-shadow);
 }
 
 .card img{
@@ -308,5 +309,15 @@ article .btn {
 
     .country, .date {
         width: 100%;
+    }
+
+    .subs form {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .subs input {
+        margin: 10px;
     }
 }
